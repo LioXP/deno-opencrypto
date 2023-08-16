@@ -1,6 +1,6 @@
 {
   "name": "deno-opencrypto",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "OpenCrypto for Deno",
   "main": "src/OpenCrypto.js",
   "type": "module",
