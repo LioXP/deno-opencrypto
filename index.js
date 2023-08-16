@@ -1,1 +1,1 @@
-export { default } from './src/OpenCrypto'
+export { default } from "./src/OpenCrypto";
