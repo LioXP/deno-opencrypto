@@ -1,7 +1,7 @@
 {
-  "name": "opencrypto",
-  "version": "1.5.5",
-  "description": "OpenCrypto is a lightweight JavaScript library built on top of WebCryptography API",
+  "name": "deno-opencrypto",
+  "version": "1.5.6",
+  "description": "OpenCrypto for Deno",
   "main": "src/OpenCrypto.js",
   "type": "module",
   "files": [
@@ -9,5 +9,9 @@
     "types/**/*"
   ],
   "types": "types/OpenCrypto.d.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LioXP/deno-opencrypto.git"
+  }
 }
