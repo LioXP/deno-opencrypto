@@ -1,8 +1,6 @@
-## OpenCrypto for Deno
+# OpenCrypto for Deno
 
-Deno: [https://deno.land/](https://deno.land/)
-
-OpenCrypto: [https://github.com/safebash/opencrypto](https://github.com/safebash/opencrypto)
+OpenCrypto is a lightweight, high performance, standard-compliant JavaScript library built on top of [Web Cryptography API](https://www.w3.org/TR/WebCryptoAPI/). This library makes it easier to implement cryptography with less code. It can convert and encode ASN.1, PEM and CryptoKey.
 
 ## Import into your application
 
