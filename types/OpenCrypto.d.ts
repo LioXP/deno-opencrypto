@@ -370,7 +370,7 @@ interface RSAOAEPPrivateOptions {
   hash?: { name: Asn1Hash };
 
   /** @default ['decrypt', 'unwrapKey'] */
-  usages?: ("decypt" | "unwrapKey")[];
+  usages?: ("decrypt" | "unwrapKey")[];
 
   /** @default true */
   isExtractable?: boolean;
