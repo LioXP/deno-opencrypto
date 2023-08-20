@@ -8,7 +8,7 @@ OpenCrypto is a lightweight, high performance, standard-compliant JavaScript lib
 import OpenCrypto from "deno-opencrypto";
 
 // Initialize new OpenCrypto instance
-const crypt = new OpenCrypto();
+const crypt = new (OpenCrypto as any as typeof OpenCrypto)();
 ```
 
 ## Conversion of CryptoKey, PEM and Base64
