@@ -367,7 +367,7 @@ interface RSAOAEPPrivateOptions {
   name: "RSA-OAEP";
 
   /** @default { name: 'SHA-512' }  */
-  hash?: { name: Asn1Hash };
+  hash?: String;
 
   /** @default ['decrypt', 'unwrapKey'] */
   usages?: ("decrypt" | "unwrapKey")[];
@@ -380,7 +380,7 @@ interface RSAPSSPrivateOptions {
   name: "RSA-PSS";
 
   /** @default { name: 'SHA-512' }  */
-  hash?: { name: Asn1Hash };
+  hash?: { name: String };
 
   /** @default ['sign'] */
   usages?: "sign"[];
@@ -463,7 +463,7 @@ interface RSAOAEPBase64Options {
   name: "RSA-OAEP";
 
   /** @default { name: 'SHA-512' } */
-  hash?: { name: Asn1Hash };
+  hash?: { name: String };
 
   /** @default ['encrypt', 'decrypt', 'wrapKey', 'unwrapKey'] */
   usages: ("encrypt" | "decrypt" | "wrapKey" | "unwrapKey")[];
