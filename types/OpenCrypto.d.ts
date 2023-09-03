@@ -229,7 +229,7 @@ export default class OpenCrypto {
     length: number,
 
     options?: SharedKeyOptions
-  ): Promise<CryptoKeyPair>;
+  ): Promise<CryptoKey>;
 
   /**
    * Method that encrypts keys
