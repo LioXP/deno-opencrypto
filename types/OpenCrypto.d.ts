@@ -407,7 +407,6 @@ type RSAPSSPublicOptions = Omit<RSAPSSPrivateOptions, "usages"> & {
 };
 
 type CryptoKeyType = "raw" | "pkcs8" | "spki";
-
 type Base64ToCryptoOptions =
   | AESGCMBase64Options
   | AESCBCBase64Options
@@ -463,7 +462,7 @@ interface RSAOAEPBase64Options {
   name: "RSA-OAEP";
 
   /** @default { name: 'SHA-512' } */
-  hash?: { name: String };
+  hash?: string;
 
   /** @default ['encrypt', 'decrypt', 'wrapKey', 'unwrapKey'] */
   usages: ("encrypt" | "decrypt" | "wrapKey" | "unwrapKey")[];
